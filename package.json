@@ -1,0 +1,14 @@
+{
+  "name": "eslint-plugin-vitest-sample",
+  "version": "1.0.0",
+  "description": "eslint-plugin-vitest sample settings",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint ./test --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-plugin-vitest": "^0.2.8",
+    "vitest": "^0.34.1"
+  }
+}

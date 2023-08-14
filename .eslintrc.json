@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "env": {
+    "es6": true
+  },
+  "plugins": ["vitest"],
+  "extends": ["plugin:vitest/recommended"],
+  "rules": {
+    "vitest/consistent-test-it": ["error", {"fn": "it"}],
+    "vitest/require-top-level-describe": ["error"]
+  }
+}

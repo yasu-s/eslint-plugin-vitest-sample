@@ -7,8 +7,8 @@
     "lint": "eslint ./test --ext .js"
   },
   "devDependencies": {
-    "eslint": "^8.47.0",
-    "eslint-plugin-vitest": "^0.2.8",
-    "vitest": "^0.34.1"
+    "eslint": "~8.47.0",
+    "eslint-plugin-vitest": "~0.2.8",
+    "vitest": "~0.34.1"
   }
 }
